@@ -7,6 +7,7 @@ echo "Installing Linux dependencies"
   gcc \
   glibc-devel.i686 \
   platformio \
+  screen \
   usbutils
   > dnf.log 2>&1
 
