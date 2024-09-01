@@ -5,12 +5,19 @@ set -e
 echo "Creating logfile direcotry"
 export LOGFILES=$PWD/Logfiles
 mkdir --parents $LOGFILES
+export PIO_VENV=$PWD/platformio
 
 pushd ..
-  echo "Building host cforth"
-  pio run 2>&1 | tee $LOGFILES/host-build.log
-  echo "Building and uploading pico cforth"
-  pio run --environment pico --target upload 2>&1 | tee LOGFILES/pico-build.log
+  source $PIO_VENV/bin/activate
+    echo "Building host cforth"
+    pio run --verbose \
+    > $LOGFILES/host-build.log
+    echo "Building and uploading pico cforth"
+    pio run --verbose \
+      --environment pico \
+      --target upload \
+      > $LOGFILES/pico-build.log
+  deactivate
 popd
 
 echo "Finished"
