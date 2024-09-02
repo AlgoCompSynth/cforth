@@ -2,6 +2,11 @@
 
 set -e
 
+echo "Your device must be in BOOTSEL mode for the upload to work!"
+echo ""
+echo "Sleeping 20 seconds in case you need to CTL-C and restart."
+sleep 20
+
 source ./set_envars
 source $PIO_VENV/bin/activate
 
