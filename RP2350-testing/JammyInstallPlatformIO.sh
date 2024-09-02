@@ -11,6 +11,7 @@ sudo apt-get install -y \
   python3-pip \
   python3-venv \
   screen \
+  usbutils \
   > $LOGFILES/apt-get.log 2>&1
 
 echo "Creating fresh $PIO_VENV"
