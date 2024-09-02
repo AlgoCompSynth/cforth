@@ -1,9 +1,3 @@
-#! /usr/bin/env bash
-
-set -e
-
 echo "Setting enivronment variables"
-export PIO_VERSION="6.1.15"; echo "PIO_VERSION: $PIO_VERSION"
-export PIO_VENV="$PWD/platformio"; echo "PIO_VENV: $PIO_VENV"
 export LOGFILES="$PWD/Logfiles"; echo "LOGFILES: $LOGFILES"
 mkdir --parents $LOGFILES

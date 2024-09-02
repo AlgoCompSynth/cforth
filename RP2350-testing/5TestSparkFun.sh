@@ -7,9 +7,9 @@ source ./set_envars
 pushd ..
   echo "Building and uploading Pico W cforth"
   pio run --verbose \
-    --environment test_pico_w \
+    --environment test_sparkfun \
     --target upload \
-    2>&1 | tee $LOGFILES/test-pico-w-cforth.log 2>&1
+    2>&1 | tee $LOGFILES/test-sparkfun-cforth.log 2>&1
 popd
 
 echo "Finished"
