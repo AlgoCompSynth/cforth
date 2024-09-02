@@ -1,3 +1,4 @@
 echo "Setting enivronment variables"
+export PIO_VENV="$HOME/pio_venv"; echo "PIO_VENV: $PIO_VENV"
 export LOGFILES="$PWD/Logfiles"; echo "LOGFILES: $LOGFILES"
 mkdir --parents $LOGFILES

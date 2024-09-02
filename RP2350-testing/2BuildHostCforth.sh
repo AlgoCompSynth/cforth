@@ -3,11 +3,14 @@
 set -e
 
 source ./set_envars
+source $PIO_VENV/bin/activate
 
 pushd ..
   echo "Building host cforth"
   pio run --verbose \
-  > $LOGFILES/host-cforth.log 2>&1
+    2>&1 | tee $LOGFILES/host-cforth.log
 popd
+
+deactivate
 
 echo "Finished"
