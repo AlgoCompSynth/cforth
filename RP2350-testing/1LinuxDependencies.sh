@@ -16,14 +16,4 @@ echo "Installing Linux dependencies"
 echo "Removing platformio caches"
 rm -fr $HOME/.platformio ../.pio
 
-echo "Creating fresh $PIO_VENV"
-rm -fr $PIO_VENV
-python3 -m venv --upgrade-deps $PIO_VENV
-
-echo "Installing platformio"
-source $PIO_VENV/bin/activate
-pip install platformio==$PIO_VERSION \
-  > $LOGFILES/platformio.log 2>&1
-deactivate
-
 echo "Finished"
