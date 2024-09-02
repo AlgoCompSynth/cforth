@@ -5,6 +5,9 @@ set -e
 source ./set_envars
 source $PIO_VENV/bin/activate
 
+echo "Clearing caches"
+rm -fr $HOME/.platformio ../.pio
+
 pushd ..
   echo "Building host cforth"
   pio run --verbose \
