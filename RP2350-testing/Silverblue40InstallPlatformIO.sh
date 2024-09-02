@@ -20,4 +20,11 @@ pip3 install --upgrade platformio \
   > $LOGFILES/platformio.log 2>&1
 deactivate
 
+echo "Installing PlatformIO rules"
+curl -fsSL $PLATFORMIO_UDEV_RULES_URL | sudo tee $PLATFORMIO_UDEV_RULES_PATH
+
+echo "Reloading"
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+
 echo "Finished"

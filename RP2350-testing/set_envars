@@ -2,3 +2,8 @@ echo "Setting enivronment variables"
 export PIO_VENV="$HOME/pio_venv"; echo "PIO_VENV: $PIO_VENV"
 export LOGFILES="$PWD/Logfiles"; echo "LOGFILES: $LOGFILES"
 mkdir --parents $LOGFILES
+
+# PlatformIO udev rules
+export SYSTEM_UDEV_PATH="/etc/udev/rules.d"
+export PLATFORMIO_UDEV_RULES_PATH="$SYSTEM_UDEV_PATH/99-platformio-udev.rules"
+export PLATFORMIO_UDEV_RULES_URL="https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules"
