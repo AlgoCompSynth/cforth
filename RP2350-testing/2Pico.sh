@@ -15,4 +15,7 @@ popd
 
 deactivate
 
+echo "Fetching firmware file"
+cp ../.pio/build/pico/firmware.uf2 rp2040-cforth.uf2
+
 echo "Finished"
