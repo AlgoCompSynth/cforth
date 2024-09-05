@@ -1,0 +1,43 @@
+---
+title: "`cforth` on the RP2350? Yes, Please!"
+author: "M. Edward (Ed) Borasky"
+format:
+  revealjs: 
+    theme: night
+---
+
+# A (Welcome) Surprise in the (e)Mail
+
+## August 8 - from Pimoroni
+
+## The announcement
+
+## The partners
+
+## The pre-orders
+
+# Interlude While I Read a Bunch of Manuals and Download a Bunch of Software
+
+## Getting Started with C/C++
+
+## Getting Started with Python
+
+# The SparkFun Boards Arrive!
+
+## Does Python work?
+
+## But wait! What about Forth?
+
+## If only someone had written a portable Forth that I could "just compile"
+
+# Enter `cforth`
+
+## Originally written by Mitch Bradley as boot firmware for Sun Workstations
+
+## Later ported to the boot firmware of the One Laptop Per Child
+
+## Current incarnation is in C and designed for porting to
+multiple embedded systems using PlatformIO
+
+# OK, what's PlatformIO?
+
