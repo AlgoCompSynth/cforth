@@ -2,7 +2,14 @@
 
 set -e
 
-echo "Your device must be in BOOTSEL mode for the upload to work!"
+echo "If the upload fails, you will have to put the device"
+echo "in BOOTSEL mode and re-run."
+echo ""
+echo "    picotool info -a -F"
+echo ""
+echo "should do it once you've done a successful upload."
+echo "If you get no response that way, you'll need to do"
+echo "it manually."
 echo ""
 echo "Sleeping 20 seconds in case you need to CTL-C and restart."
 sleep 20
@@ -19,5 +26,13 @@ pushd ..
 popd
 
 deactivate
+
+echo "Fetching firmware file"
+cp ../.pio/build/test_pico_w/firmware.uf2 test-pico-w-cforth.uf2
+echo "Disassembling"
+$HOME/.platformio/packages/toolchain-rp2040-earlephilhower/arm-none-eabi/bin/objdump \
+  -d \
+  ../.pio/build/test_pico_w/firmware.elf \
+  > test-pico-w-cforth.dis
 
 echo "Finished"

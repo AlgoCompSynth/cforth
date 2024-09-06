@@ -1,1 +1,3 @@
 *.uf2 binary
+*.log binary
+*.dis binary
