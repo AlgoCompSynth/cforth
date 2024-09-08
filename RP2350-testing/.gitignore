@@ -1,4 +1,5 @@
 *.log
 *.dis
 *.uf2
+*.elf
 platformio
