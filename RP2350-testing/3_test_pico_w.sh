@@ -76,7 +76,7 @@ echo "Fetching firmware files"
 cp ../.pio/build/$PIO_ENVIRONMENT/firmware.elf $PIO_ENVIRONMENT-cforth.elf
 cp ../.pio/build/$PIO_ENVIRONMENT/firmware.uf2 $PIO_ENVIRONMENT-cforth.uf2
 echo "Disassembling"
-$HOME/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/bin/objdump \
+$HOME/.platformio/packages/toolchain-rp2040-earlephilhower/arm-none-eabi/bin/objdump \
   -d \
   $PIO_ENVIRONMENT-cforth.elf \
   > $PIO_ENVIRONMENT-cforth.dis
