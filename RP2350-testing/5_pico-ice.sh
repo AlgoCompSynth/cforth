@@ -73,11 +73,11 @@ echo "" \
 echo "" \
   >> $LOGFILE 2>&1
 echo "Fetching firmware file"
-cp ../.pio/build/pico/firmware.uf2 $PIO_ENVIRONMENT-ice-cforth.uf2
+cp ../.pio/build/$PIO_ENVIRONMENT/firmware.uf2 $PIO_ENVIRONMENT-ice-cforth.uf2
 echo "Disassembling"
 $HOME/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/bin/objdump \
   -d \
-  ../.pio/build/pico/firmware.elf \
+  ../.pio/build/$PIO_ENVIRONMENT/firmware.elf \
   > $PIO_ENVIRONMENT-ice-cforth.dis
 
 echo "Finished"
