@@ -73,7 +73,7 @@ echo "" \
 echo "" \
   >> $LOGFILE 2>&1
 echo "Fetching firmware file"
-cp ../.pio/build/pico/firmware.uf2 $PIO_ENVIRONMENT-pico-cforth.uf2
+cp ../.pio/build/pico/firmware.uf2 $PIO_ENVIRONMENT-cforth.uf2
 echo "Disassembling"
 $HOME/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/bin/objdump \
   -d \
