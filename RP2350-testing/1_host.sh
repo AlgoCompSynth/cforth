@@ -5,7 +5,7 @@ set -e
 source ./set_envars
 source $PIO_VENV/bin/activate
 export LOGFILE=$LOGFILES/host-cforth.log
-rm $LOGFILE
+rm -f $LOGFILE
 
 echo "Clearing caches"
 rm -fr $HOME/.platformio ../.pio
