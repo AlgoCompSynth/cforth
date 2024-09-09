@@ -1,0 +1,74 @@
+```
+> lsusb
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 05e3:0610 Genesys Logic, Inc. Hub
+Bus 001 Device 003: ID 0408:a061 Quanta Computer, Inc. HD User Facing
+Bus 001 Device 004: ID 8087:0026 Intel Corp. AX201 Bluetooth
+Bus 001 Device 019: ID 2e8a:000f Raspberry Pi RP2350 Boot
+Bus 001 Device 021: ID 2e8a:000a Raspberry Pi Pico W
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 002 Device 002: ID 05e3:0626 Genesys Logic, Inc. Hub
+```
+
+
+
+SparkFun Pro Micro RP2350
+```
+Program Information
+ name:          hello_usb
+ web site:      https://github.com/raspberrypi/pico-examples/tree/HEAD/hello_world/usb
+ features:      USB stdin / stdout
+ binary start:  0x10000000
+ binary end:    0x100079d8
+ target chip:   RP2350
+ image type:    ARM Secure
+
+Fixed Pin Information
+ none
+
+Build Information
+ sdk version:       2.0.0
+ pico_board:        sparkfun_promicro_rp2350
+ build date:        Sep  3 2024
+ build attributes:  Debug
+
+Device Information
+ type:                   RP2350
+ revision:               A2
+ package:                QFN60
+ chipid:                 0x971dc66b0aeb1a05
+ flash devinfo:          0x0c00
+ current cpu:            ARM
+ available cpus:         ARM, RISC-V
+ default cpu:            ARM
+ secure boot:            0
+ debug enable:           1
+ secure debug enable:    1
+ boot_random:            96d3f329:3d4e2c50:e53f2abf:56abb134
+ boot type:              bootsel
+ last booted partition:  slot 0
+ reboot param 0:         0x00000001
+ reboot param 1:         0x00000000
+ rom gitrev:             0x312e22fa
+ flash size:             16384K
+```
+
+
+
+Raspberry Pi Pico W
+```
+Program Information
+ none
+
+Fixed Pin Information
+ none
+
+Build Information
+ none
+
+Device Information
+ type:        RP2040
+ revision:    B2
+ flash size:  2048K
+ flash id:    0xE66130100F5C9C34
+```
