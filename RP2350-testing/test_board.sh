@@ -5,8 +5,8 @@ set -e
 source ./set_envars
 source $PIO_VENV/bin/activate
 export PIO_ENVIRONMENT=${1-rpipico}
-export LOGFILE_TAG=${2-""}
-export LOGFILE="${LOGFILES}/${PIO_ENVIRONMENT}${LOGFILE_TAG}.log"
+export BOARD_TAG=${2-""}
+export LOGFILE="${LOGFILES}/${PIO_ENVIRONMENT}${BOARD_TAG}.log"
 rm -f $LOGFILE
 
 pushd ..
@@ -39,13 +39,13 @@ popd
 deactivate
 
 echo "Fetching firmware files"
-cp ../.pio/build/$PIO_ENVIRONMENT/firmware.elf $PIO_ENVIRONMENT.elf
-cp ../.pio/build/$PIO_ENVIRONMENT/firmware.uf2 $PIO_ENVIRONMENT.uf2
+cp ../.pio/build/$PIO_ENVIRONMENT/firmware.elf "${PIO_ENVIRONMENT}${BOARD_TAG}.elf"
+cp ../.pio/build/$PIO_ENVIRONMENT/firmware.uf2 "$PIO_ENVIRONMENT${BOARD_TAG}.uf2"
 echo "Disassembling"
 $OBJDUMP_PATH/objdump \
   -d \
-  $PIO_ENVIRONMENT.elf \
-  > $PIO_ENVIRONMENT.dis
+  "${PIO_ENVIRONMENT}${BOARD_TAG}.elf" \
+  > "${PIO_ENVIRONMENT}${BOARD_TAG}.dis"
 
 echo "Active TTYs"
 ls -l /dev/ttyACM* || true
