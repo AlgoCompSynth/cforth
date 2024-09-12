@@ -23,7 +23,7 @@ the host computer.
    `../platformio.ini`, but if you have boards I don't have and
    want to test them, feel free to add an environment.
 
-5. Run the test with the script `./test_board.sh`. The parameters
+4. Run the test with the script `./test_board.sh`. The parameters
 are:
 
     - $1=PIO_ENVIRONMENT: The envionment from `../platformio.ini`.
@@ -31,9 +31,16 @@ The default is a Raspberry Pi Pico, `rpipico`.
     - $2=LOGFILE_TAG: An optional logfile tag. The default is the empty string.
 The test script logs to the file `Logfiles/${PIO_ENVIRONMENT}${LOGFILE_TAG}.log`
 
+    For example, when I test the
+    [TinyVision.ai Pico-Ice](https://pico-ice.tinyvision.ai/), I use the command
+
+    ```
+    ./test_board.sh rpipico "-pico-ice"
+    ```
+
 Aside from logging information possibly useful in troubleshooting, the
 script does a `pio run` with the specified environment to build and upload
-the `cforth` firmware to the board. It then fetches the firmware files out
+the `cforth` firmware to the board. It then fetches the firmware files
 from the build environment and creates a disassembly listing.
 
 Finally, it lists the active `/dev/ttyACM*` TTYs. This is almost always just
