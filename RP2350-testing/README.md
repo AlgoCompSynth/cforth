@@ -38,3 +38,17 @@ Finally, it lists the active `/dev/ttyACM*` TTYs. This is almost always just
 well you can do `screen /dev/ttyACM0 115200`, do an `Enter`, and receive
 the `cforth` `ok` prompt. I have not tested `cforth` itself extensively
 yet, but `2 3 + . Enter` behaves as expected.
+
+## Status / next steps
+The current tests are using a pre-release platform,
+<https://github.com/maxgerhardt/platform-raspberrypi.git>. This in turn uses the
+***released*** Arduino Pico framework,
+<https://github.com/earlephilhower/arduino-pico/releases/tag/4.0.1>. Before I
+submit a pull request I am waiting for the platform to be released and the
+next release of the framework.
+
+The `master` branch of the framework has a definition for one of the boards I
+have, the Pimoroni Pico Plus 2. The board does work in the ***Ardunio CLI***
+using that branch, but I have no way to build and test `cforth` that board
+with PlatformIO until the released version includes that board. The board
+does work with "Generic RP2350" currently.
