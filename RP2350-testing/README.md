@@ -1,5 +1,9 @@
 # Raspberry Pi microcontroller platform / board test suite
 
+## Setup
+
+TBD
+
 ## Running
 
 1. Run `./1_host.sh`. This will remove all the cached files
