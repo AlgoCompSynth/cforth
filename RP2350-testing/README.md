@@ -15,12 +15,15 @@ USB hub or one of those USB-A to micro or USB C adapters. If you
 have problems, connect with a known good USB cable directly to
 the host computer.
 
-3. Look up your board in `raspberrypi-platform-boards.txt`. I
-have only included boards I have actually tested in
-`../platformio.ini`, but if you have boards I don't have and
-want to test them, feel free to add an environment.
+3. Look up your board in
 
-4. Run the test with the script `./test_board.sh`. The parameters
+    [`raspberrypi-platform-boards.txt`](https://github.com/AlgoCompSynth/cforth/blob/master/RP2350-testing/raspberrypi-platform-boards.txt).
+
+   I have only included boards I have actually tested in
+   `../platformio.ini`, but if you have boards I don't have and
+   want to test them, feel free to add an environment.
+
+5. Run the test with the script `./test_board.sh`. The parameters
 are:
 
     - $1=PIO_ENVIRONMENT: The envionment from `../platformio.ini`.
