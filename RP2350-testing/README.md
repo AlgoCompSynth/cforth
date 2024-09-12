@@ -15,16 +15,16 @@ The scripts in this test suite are designed to work
 -   On any [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/
     "Fedora Atomic Desktops Home Page") or
     [Univeral Blue](https://universal-blue.org/ "Universal Blue Home Page")
-    host system.
+    host system,
 
 -   On a Fedora 40, Debian 12 "Bookworm" or Ubuntu 22.04 LTS "Jammy Jellyfish"
     system. A desktop is not required; everything can be done from a `bash`
-    or `zsh` command line.
+    or `zsh` command line, or
 
 -   In a Fedora 40, Debian 12 or Ubuntu 22.04 LTS
     [Distrobox](https://distrobox.it/ "Distrobox Home Page") container.
 
-Note that currenty, only `x86_64` / `amd64` systems will work.
+Note that currently only `x86_64` / `amd64` systems will work.
 
 A note about Windows Subsystem for Linux (WSL): these scripts can be
 made to work in Ubuntu 22.04 LTS running in WSL. However, it requires a
