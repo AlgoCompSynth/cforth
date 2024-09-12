@@ -40,8 +40,9 @@ devices in WSL:
 
 ### Setting `udev` rules
 
-The setup scripts are in directory `cforth/RP2350-testing/setup`. The
-first step is to set the `udev` rules for RP2040 / RP2350 devices. ***If
+The following setup scripts are in directory `cforth/RP2350-testing/setup`.
+
+The first step is to set the `udev` rules for RP2040 / RP2350 devices. ***If
 you are running in a container, you will need to set them on the host,
 not in the container.***
 
