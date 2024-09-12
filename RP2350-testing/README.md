@@ -134,7 +134,7 @@ first.
     ./test_board.sh generic_rp2350 pimoroni_pico_plus_2
     ```
 
-## What the script does
+### What the `test_board.sh` script does
 
 Aside from logging information possibly useful in troubleshooting, the
 script does a `pio run` with the specified environment to build and
