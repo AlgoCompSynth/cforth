@@ -30,10 +30,11 @@ A note about Windows Subsystem for Linux (WSL): these scripts can be
 made to work in Ubuntu 22.04 LTS running in WSL. However, it requires a
 somewhat awkward mechanism for making Windows host USB devices available
 to the WSL Linux container. You are probably better off installing
-Visual Studio Code and using the PlatformIO extension, once those catch
-up fully with the RP2350 boards. If you want to experiment with it,
-here's the official Microsoft documentation on using host USB devices in
-WSL:
+Visual Studio Code and its PlatformIO extension on Windows.
+
+If you want to experiment with testing `cforth` on RP2040 / RP2350 boards
+in WSL, here's the official Microsoft documentation on using host USB
+devices in WSL:
 [Connect USB Devices](https://learn.microsoft.com/en-us/windows/wsl/connect-usb
 "Microsoft Documentation for USBIPD").
 
