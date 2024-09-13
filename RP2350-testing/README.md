@@ -131,7 +131,7 @@ first.
     command:
 
     ```
-    ./test_board.sh generic_rp2350 pimoroni_pico_plus_2
+    ./test_board.sh generic_rp2350 "-pimoroni_pico_plus_2"
     ```
 
 ### What the `test_board.sh` script does
