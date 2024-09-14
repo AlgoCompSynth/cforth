@@ -2,7 +2,7 @@
 
 set -e
 
-source ./set_envars
+source ../set_envars
 
 echo "Installing Linux dependencies as 'root'!!"
 sudo apt-get install -y \
