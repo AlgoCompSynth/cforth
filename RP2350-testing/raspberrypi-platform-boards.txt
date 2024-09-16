@@ -70,8 +70,11 @@ olimex_rp2040pico30_16mb        RP2040  133MHz       16MB     256KB  RP2040-Pico
 olimex_rp2040pico30_2mb         RP2040  133MHz       2MB      256KB  RP2040-Pico30 2MB
 pico                            RP2040  133MHz       2MB      256KB  Raspberry Pi Pico
 pimoroni_pga2040                RP2040  133MHz       8MB      256KB  PGA2040
+pimoroni_pga2350                RP2350  150MHz       16MB     512KB  PGA2350
+pimoroni_pico_plus_2            RP2350  150MHz       16MB     512KB  PicoPlus2
 pimoroni_plasma2040             RP2040  133MHz       2MB      256KB  Plasma2040
 pimoroni_tiny2040               RP2040  133MHz       2MB      256KB  Tiny2040
+pimoroni_tiny2350               RP2350  150MHz       4MB      512KB  Tiny2350
 pintronix_pinmax                RP2040  133MHz       4MB      256KB  PinMax
 rakwireless_rak11300            RP2040  133MHz       2MB      256KB  RAK11300
 redscorp_rp2040_eins            RP2040  133MHz       16MB     256KB  RP2040-Eins
