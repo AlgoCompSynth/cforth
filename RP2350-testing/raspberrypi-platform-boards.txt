@@ -1,0 +1,109 @@
+
+Platform: raspberrypi
+================================================================================
+ID                              MCU     Frequency    Flash    RAM    Name
+------------------------------  ------  -----------  -------  -----  ------------------------------
+0xcb_helios                     RP2040  133MHz       16MB     256KB  Helios
+DudesCab                        RP2040  133MHz       4MB      256KB  DudesCab
+adafruit_feather                RP2040  133MHz       8MB      256KB  Feather RP2040
+adafruit_feather_adalogger      RP2040  133MHz       8MB      256KB  Feather RP2040 Adalogger
+adafruit_feather_can            RP2040  133MHz       8MB      256KB  Feather RP2040 CAN
+adafruit_feather_dvi            RP2040  133MHz       8MB      256KB  Feather RP2040 DVI
+adafruit_feather_prop_maker     RP2040  133MHz       8MB      256KB  Feather RP2040 Prop-Maker
+adafruit_feather_rfm            RP2040  133MHz       8MB      256KB  Feather RP2040 RFM
+adafruit_feather_scorpio        RP2040  133MHz       8MB      256KB  Feather RP2040 SCORPIO
+adafruit_feather_thinkink       RP2040  133MHz       8MB      256KB  Feather RP2040 ThinkINK
+adafruit_feather_usb_host       RP2040  133MHz       8MB      256KB  Feather RP2040 USB Host
+adafruit_itsybitsy              RP2040  133MHz       8MB      256KB  ItsyBitsy RP2040
+adafruit_kb2040                 RP2040  133MHz       8MB      256KB  KB2040
+adafruit_macropad2040           RP2040  133MHz       8MB      256KB  MacroPad RP2040
+adafruit_metro                  RP2040  133MHz       16MB     256KB  Metro RP2040
+adafruit_qtpy                   RP2040  133MHz       8MB      256KB  QT Py RP2040
+adafruit_stemmafriend           RP2040  133MHz       8MB      256KB  STEMMA Friend RP2040
+adafruit_trinkeyrp2040qt        RP2040  133MHz       8MB      256KB  Trinkey RP2040 QT
+akana_r1                        RP2040  133MHz       16MB     256KB  Akana R1
+amken_bunny                     RP2040  133MHz       128MB    256KB  BunnyBoard
+amken_revelop                   RP2040  133MHz       32MB     256KB  Revelop
+amken_revelop_es                RP2040  133MHz       16MB     256KB  Revelop eS
+amken_revelop_plus              RP2040  133MHz       32MB     256KB  Revelop Plus
+arduino_nano_connect            RP2040  133MHz       16MB     256KB  Nano RP2040 Connect
+artronshop_rp2_nano             RP2040  133MHz       2MB      256KB  RP2 Nano
+breadstick_raspberry            RP2040  133MHz       16MB     256KB  Raspberry
+bridgetek_idm2040_43a           RP2040  133MHz       8MB      256KB  IDM2040-43A
+bridgetek_idm2040_7a            RP2040  133MHz       8MB      256KB  IDM2040-7A
+challenger_2040_lora            RP2040  133MHz       8MB      256KB  Challenger 2040 LoRa
+challenger_2040_lte             RP2040  133MHz       8MB      256KB  Challenger 2040 LTE
+challenger_2040_nfc             RP2040  133MHz       8MB      256KB  Challenger 2040 NFC
+challenger_2040_sdrtc           RP2040  133MHz       8MB      256KB  Challenger 2040 SD/RTC
+challenger_2040_subghz          RP2040  133MHz       8MB      256KB  Challenger 2040 SubGHz
+challenger_2040_uwb             RP2040  133MHz       8MB      256KB  Challenger 2040 UWB
+challenger_2040_wifi            RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi
+challenger_2040_wifi6_ble       RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi6/BLE
+challenger_2040_wifi_ble        RP2040  133MHz       8MB      256KB  Challenger 2040 WiFi/BLE
+challenger_2350_bconnect        RP2350  150MHz       8MB      512KB  Challenger 2350 BConnect
+challenger_2350_wifi6_ble5      RP2350  150MHz       8MB      512KB  Challenger 2350 WiFi/BLE
+challenger_nb_2040_wifi         RP2040  133MHz       8MB      256KB  Challenger NB 2040 WiFi
+connectivity_2040_lte_wifi_ble  RP2040  133MHz       8MB      256KB  Connectivity 2040 LTE/WiFi/BLE
+cytron_iriv_io_controller       RP2350  150MHz       2MB      512KB  IRIV IO Controller
+cytron_maker_nano_rp2040        RP2040  133MHz       2MB      256KB  Maker Nano RP2040
+cytron_maker_pi_rp2040          RP2040  133MHz       2MB      256KB  Maker Pi RP2040
+cytron_maker_uno_rp2040         RP2040  133MHz       2MB      256KB  Maker Uno RP2040
+cytron_motion_2350_pro          RP2350  150MHz       2MB      512KB  Motion 2350 Pro
+datanoisetv_picoadk             RP2040  133MHz       2MB      256KB  PicoADK
+degz_suibo                      RP2040  133MHz       16MB     256KB  Suibo RP2040
+dfrobot_beetle_rp2040           RP2040  133MHz       2MB      256KB  Beetle RP2040
+electroniccats_huntercat_nfc    RP2040  133MHz       2MB      256KB  HunterCat NFC RP2040
+evn_alpha                       RP2040  133MHz       16MB     256KB  Alpha
+extelec_rc2040                  RP2040  133MHz       2MB      256KB  RC2040
+flyboard2040_core               RP2040  133MHz       4MB      256KB  FlyBoard2040Core
+generic                         RP2040  133MHz       16MB     256KB  RP2040
+generic_rp2350                  RP2350  150MHz       16MB     512KB  RP2350
+groundstudio_marble_pico        RP2040  133MHz       8MB      256KB  Marble Pico
+ilabs_rpico32                   RP2040  133MHz       8MB      256KB  RPICO32
+melopero_cookie_rp2040          RP2040  133MHz       8MB      256KB  Cookie RP2040
+melopero_shake_rp2040           RP2040  133MHz       16MB     256KB  Shake RP2040
+nanorp2040connect               RP2040  133MHz       2MB      256KB  Arduino Nano RP2040 Connect
+nekosystems_bl2040_mini         RP2040  133MHz       4MB      256KB  BL2040 Mini
+newsan_archi                    RP2040  133MHz       4MB      256KB  Archi
+nullbits_bit_c_pro              RP2040  133MHz       4MB      256KB  Bit-C PRO
+olimex_rp2040pico30_16mb        RP2040  133MHz       16MB     256KB  RP2040-Pico30 16MB
+olimex_rp2040pico30_2mb         RP2040  133MHz       2MB      256KB  RP2040-Pico30 2MB
+pico                            RP2040  133MHz       2MB      256KB  Raspberry Pi Pico
+pimoroni_pga2040                RP2040  133MHz       8MB      256KB  PGA2040
+pimoroni_pga2350                RP2350  150MHz       16MB     512KB  PGA2350
+pimoroni_pico_plus_2            RP2350  150MHz       16MB     512KB  PicoPlus2
+pimoroni_plasma2040             RP2040  133MHz       2MB      256KB  Plasma2040
+pimoroni_tiny2040               RP2040  133MHz       2MB      256KB  Tiny2040
+pimoroni_tiny2350               RP2350  150MHz       4MB      512KB  Tiny2350
+pintronix_pinmax                RP2040  133MHz       4MB      256KB  PinMax
+rakwireless_rak11300            RP2040  133MHz       2MB      256KB  RAK11300
+redscorp_rp2040_eins            RP2040  133MHz       16MB     256KB  RP2040-Eins
+redscorp_rp2040_promini         RP2040  133MHz       16MB     256KB  RP2040-ProMini
+rpipico                         RP2040  133MHz       2MB      256KB  Pico
+rpipico2                        RP2350  150MHz       4MB      512KB  Pico 2
+rpipicow                        RP2040  133MHz       2MB      256KB  Pico W
+sea_picro                       RP2040  133MHz       8MB      256KB  Sea-Picro
+seeed_indicator_rp2040          RP2040  133MHz       2MB      256KB  INDICATOR RP2040
+seeed_xiao_rp2040               RP2040  133MHz       2MB      256KB  XIAO RP2040
+silicognition_rp2040_shim       RP2040  133MHz       4MB      256KB  RP2040-Shim
+solderparty_rp2040_stamp        RP2040  133MHz       8MB      256KB  RP2040 Stamp
+solderparty_rp2350_stamp        RP2350  150MHz       16MB     512KB  RP2350 Stamp
+solderparty_rp2350_stamp_xl     RP2350  150MHz       16MB     512KB  RP2350 Stamp XL
+sparkfun_micromodrp2040         RP2040  133MHz       16MB     256KB  MicroMod RP2040
+sparkfun_promicrorp2040         RP2040  133MHz       16MB     256KB  ProMicro RP2040
+sparkfun_promicrorp2350         RP2350  150MHz       16MB     512KB  ProMicro RP2350
+sparkfun_thingplusrp2040        RP2040  133MHz       16MB     256KB  Thing Plus RP2040
+upesy_rp2040_devkit             RP2040  133MHz       2MB      256KB  RP2040 DevKit
+vccgnd_yd_rp2040                RP2040  133MHz       16MB     256KB  YD RP2040
+viyalab_mizu                    RP2040  133MHz       8MB      256KB  Mizu RP2040
+waveshare_rp2040_lcd_0_96       RP2040  133MHz       2MB      256KB  RP2040 LCD 0.96
+waveshare_rp2040_lcd_1_28       RP2040  133MHz       2MB      256KB  RP2040 LCD 1.28
+waveshare_rp2040_matrix         RP2040  133MHz       2MB      256KB  RP2040 Matrix
+waveshare_rp2040_one            RP2040  133MHz       4MB      256KB  RP2040 One
+waveshare_rp2040_pizero         RP2040  133MHz       16MB     256KB  RP2040 PiZero
+waveshare_rp2040_plus_16mb      RP2040  133MHz       16MB     256KB  RP2040 Plus 16MB
+waveshare_rp2040_plus_4mb       RP2040  133MHz       4MB      256KB  RP2040 Plus 4MB
+waveshare_rp2040_zero           RP2040  133MHz       2MB      256KB  RP2040 Zero
+wiznet_5100s_evb_pico           RP2040  133MHz       2MB      256KB  W5100S-EVB-Pico
+wiznet_5500_evb_pico            RP2040  133MHz       2MB      256KB  W5500-EVB-Pico
+wiznet_wizfi360_evb_pico        RP2040  133MHz       2MB      256KB  WizFi360-EVB-Pico
