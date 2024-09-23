@@ -1,7 +1,8 @@
 echo "Setting enivronment variables"
 export PIO_VENV="$HOME/pio_venv"; echo "PIO_VENV: $PIO_VENV"
-export LOGFILES="$PWD/Logfiles"; echo "LOGFILES: $LOGFILES"
+export LOGFILES="$PWD/log_files"; echo "LOGFILES: $LOGFILES"
 mkdir --parents $LOGFILES
+export OBJDUMP_PATH="$HOME/.platformio/packages/toolchain-rp2040-earlephilhower/arm-none-eabi/bin/"
 
 # PlatformIO udev rules
 export SYSTEM_UDEV_PATH="/etc/udev/rules.d"

@@ -4,14 +4,20 @@ set -e
 
 source ./set_envars
 source $PIO_VENV/bin/activate
+export LOGFILE=$LOGFILES/host-cforth.log
+rm -f $LOGFILE
 
 echo "Clearing caches"
 rm -fr $HOME/.platformio ../.pio
 
 pushd ..
+  date \
+    >> $LOGFILE 2>&1
   echo "Building host cforth"
-  pio run --verbose \
-    2>&1 | tee $LOGFILES/host-cforth.log
+  /usr/bin/time pio run --verbose \
+    >> $LOGFILE 2>&1
+  date \
+    >> $LOGFILE 2>&1
 popd
 
 deactivate
