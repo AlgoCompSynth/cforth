@@ -1,43 +1,37 @@
 ---
-title: "`cforth` on the RP2350? Yes, Please!"
+title: "C Forth on the RP2350? Yes, Please!"
 author: "M. Edward (Ed) Borasky"
-format:
-  revealjs: 
-    theme: night
+date: "2024-09-28"
+format: 
+  beamer:
+    theme: Montpellier
+editor: visual
 ---
 
-# A (Welcome) Surprise in the (e)Mail
+# A (Welcome) Surprise in the (E)mail
 
-## August 8 - from Pimoroni
+## August 8, 2024 - the Raspberry Pi Pico 2
 
-## The announcement
+## Pico vs. Pico 2
 
-## The partners
+## RP2040 vs. RP2350
 
-## The pre-orders
+## Partners
 
-# Interlude While I Read a Bunch of Manuals and Download a Bunch of Software
+# C Forth
 
-## Getting Started with C/C++
+## Why C Forth?
 
-## Getting Started with Python
+## PlatformIO
 
-# The SparkFun Boards Arrive!
+## Test setup
 
-## Does Python work?
+# Next steps
 
-## But wait! What about Forth?
+## Other boards?
 
-## If only someone had written a portable Forth that I could "just compile"
+## Other build tools?
 
-# Enter `cforth`
+## Other Forths?
 
-## Originally written by Mitch Bradley as boot firmware for Sun Workstations
-
-## Later ported to the boot firmware of the One Laptop Per Child
-
-## Current incarnation is in C and designed for porting to
-multiple embedded systems using PlatformIO
-
-# OK, what's PlatformIO?
-
+## RISC-V?
